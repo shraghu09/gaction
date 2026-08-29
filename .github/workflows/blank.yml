@@ -1,12 +1,27 @@
 name: actionpage
 on: workflow_dispatch
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: heloo
         run: 
              echo "HI raghu"
              echo "hi github"
+
+  test:
+   runs-on: ubuntu-latest
+   steps:
+     - name: test phase
+       run: hi rakku
+
+  deploy:
+   runs-on: ubuntu-latest
+   steps:
+     - name: deploy phase
+       run: echo "deploy phase"
+   
+    
+     
     
   
