@@ -13,7 +13,7 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: test phase
-       run: hi rakku
+       run: echo "hi rakku"
 
   deploy:
    runs-on: ubuntu-latest
