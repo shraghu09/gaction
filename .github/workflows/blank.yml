@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: heloo
-        run: echo "HI raghu"
+        run: 
+             echo "HI raghu"
+             echo "hi github"
     
   
